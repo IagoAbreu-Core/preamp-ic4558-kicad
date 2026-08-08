@@ -1,49 +1,49 @@
-# 🎵 Pré-Amplificador de Áudio Estéreo com RC4558
+# 🎵 Stereo Audio Pre-Amplifier using RC4558
 
 ![Imagem 3D da Placa](./media/amplificador_IC4558.jpeg)
 
-## 📌 Sobre o Projeto
-Este é um projeto de layout de **PCB para pré-amplificador de áudio estéreo** projetado no **KiCad**. O circuito foi desenvolvido com base no clássico amplificador operacional duplo **RC4558**, ideal para condicionamento e pré-amplificação de sinais de áudio fracos antes do estágio de potência.
+## 📌 About the Project
+This is a PCB layout design for a **stereo audio preamplifier**, created using **KiCad**. The circuit is based on the classic **RC4558** dual-opamp, which is ideal for conditioning and preamplifying weak audio signals before they reach the power amplifier stage.
 
-O layout conta com conexões de entrada/saída padronizadas e componentes híbridos (THT e SMD), focado em facilidade de montagem e baixo custo de fabricação.
+The layout features standard input/output connections and hybrid components (THT and SMD), with a focus on ease of assembly and low manufacturing costs.
 
 ---
 
-## 🛠️ Especificações Técnicas & Ferramentas
+## 🛠️ Technical Specifications & Tools
 * **Software EDA:** KiCad
-* **Número de Camadas:** 2 Camadas (Dual Layer - Top/Bottom)
-* **Tecnologia dos Componentes:** THT (Through-Hole) & SMD
-* **Arquivos do Projeto:** Schematics, PCB Layout e Arquivos **Gerber** prontos para fabricação (JLCPCB / PCBWay)
+* **Number of Layers:** 2 layers (Dual Layer – Top/Bottom)
+* **Component Technology:** THT (Through-Hole) & SMD
+* **Project Files:** Schematics, PCB layouts, and **Gerber** files ready for manufacturing (JLCPCB / PCBWay)
 
 ---
 
-## 📋 Lista de Componentes (BOM)
+## 📋 Component List (BOM)
 
-### 🔹 Circuitos Integrados & Semicondutores
-* **1x** Circuito Integrado **RC4558** (Op-Amp Duplo)
-* **1x** Regulador de Tensão
+### 🔹 Integrated Circuits & Semiconductors
+* **1x** RC4558 Integrated Circuit (Dual Op-Amp)
+* **1x** Voltage Regulator
 
-### 🔹 Resistores
+### 🔹 Resistors
 * **2x** 10kΩ
 * **1x** 1kΩ
 * **1x** 2k7Ω (2.7kΩ)
 * **1x** 220kΩ
-* **1x** 100kΩ
-* **4x** Potenciômetros / Resistores Variáveis de 50kΩ
+* **1x** 100 kΩ
+* **4x** 50kΩ potentiometers/variable resistors
 
-### 🔹 Capacitores
-* **2x** Capacitores Eletrolíticos - 100µF
-* **3x** Capacitores - 471µF
+### 🔹 Capacitors
+* **2x** Electrolytic Capacitors – 100µF each
+* **3x** Capacitors – 471µF each
 
-### 🔹 Conectores
-* **2x** Conectores AudioJack P10 (Entrada / Saída)
+### 🔹 Connectors
+* **2x** AudioJack P10 connectors (Input/Output)
 
 ---
 
-## 📑 Esquema Elétrico & Layout da Placa
+## 📑 Electrical Schematic & Board Layout
 
-### Esquema Elétrico (Schematic)
+### Electrical Schematic
 ![Esquema Elétrico](./media/esquematico.jpeg)
 
-### Visualização das Camadas da PCB
+### Visualization of PCB Layers
 ![Visualização PCB](./media/pcb.jpeg)
