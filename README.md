@@ -11,7 +11,7 @@ The layout features standard input/output connections and hybrid components (THT
 
 ## 🛠️ Technical Specifications & Tools
 * **Software EDA:** KiCad
-* **Number of Layers:** 2 layers (Dual Layer – Top/Bottom)
+* **Number of Layers:** 1 layers
 * **Component Technology:** THT (Through-Hole) & SMD
 * **Project Files:** Schematics, PCB layouts, and **Gerber** files ready for manufacturing (JLCPCB / PCBWay)
 
